@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.Customersupport.Chatting">
+
+
+    <ImageButton
+        android:id="@+id/imageView2"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:onClick="man"
+        app:srcCompat="@drawable/human"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true" />
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="31dp"
+
+            android:text="Trending Today..!"
+            android:layout_marginLeft="16dp"
+            android:layout_marginStart="16dp"
+            android:onClick="News"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+    <ImageButton
+        android:id="@+id/fbb"
+        android:layout_width="240dp"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/bot"
+        android:layout_toLeftOf="@+id/imageView2"
+        android:layout_toStartOf="@+id/imageView2" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="150dp"
+        android:layout_height="100dp"
+        app:srcCompat="@drawable/bond"
+        android:layout_above="@+id/textView2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="44dp" />
+
+    <ImageButton
+        android:id="@+id/imageButton"
+        android:layout_width="fill_parent"
+        android:layout_height="300dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@+id/textView"
+        app:srcCompat="?attr/colorPrimary" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="103dp"
+        android:paddingRight="35dp"
+        android:paddingTop="65dp"
+        android:text="      Conatct Jean"
+        android:textColor="#000"
+        android:textSize="20dp"
+        android:textStyle="bold|italic"
+        android:layout_above="@+id/button2"
+        android:layout_alignLeft="@+id/button2"
+        android:layout_alignStart="@+id/button2"
+        android:layout_marginLeft="14dp"
+        android:layout_marginStart="14dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/textView"
+        android:layout_alignBottom="@+id/textView"
+        android:layout_toEndOf="@+id/fbb"
+
+        android:layout_toRightOf="@+id/fbb"
+        android:paddingRight="10dp"
+        android:text="  Contact Executive"
+        android:textColor="#000"
+        android:textSize="20dp"
+        android:textStyle="bold|italic"
+        />
+
+
+</RelativeLayout>
